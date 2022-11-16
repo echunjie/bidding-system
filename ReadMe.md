@@ -1,8 +1,8 @@
-# Getting Started
+# 采购管理系统
 
-### Reference Documentation
+### 简介
 
-For further reference, please consider the following sections:
+采购管理系统帮助政府、企业建立规范化电子采购流程，提升内部协作机制，提高项目招标进度，公开、透明、阳光、公平化在线招标。
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.6.13/maven-plugin/reference/html/)
