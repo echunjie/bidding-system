@@ -6,6 +6,7 @@
 		<module>bidding-project</module>
 		<module>bidding-supplier</module>
         <module>bidding-common</module>
+        <module>bidding-mall</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
