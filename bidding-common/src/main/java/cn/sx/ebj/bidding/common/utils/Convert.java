@@ -8,13 +8,12 @@ package cn.sx.ebj.bidding.common.utils;
  * @date: 2022-11-12 21:18
  **/
 
-public class ConvertUtils {
+public class Convert {
 
-    public static int toInt(Object obj) {
-        if (obj instanceof String) {
 
-        }
-
-        return 0;
+    public static String toStr(Object obj) {
+        return (obj != null ? obj.toString() : "");
     }
+
+
 }
