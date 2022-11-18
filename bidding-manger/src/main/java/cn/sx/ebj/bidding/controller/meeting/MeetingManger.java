@@ -1,16 +1,15 @@
-package cn.sx.ebj.bidding.controller.expert;
+package cn.sx.ebj.bidding.controller.meeting;
 
 import cn.sx.ebj.bidding.common.core.BaseController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @name: 专家管理
+ * @name: 会议管理
  * @author: chunjie
- * @date: 2022-11-18 20:45
+ * @date: 2022-11-19 00:42
  **/
 @Controller
-@RequestMapping("/expert")
-public class ExpertManger extends BaseController {
-
+@RequestMapping("/meeting")
+public class MeetingManger extends BaseController {
 }
