@@ -2,10 +2,12 @@ package cn.sx.ebj.bidding;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
 @SpringBootApplication
-public class ProjectApplication {
+@EnableRedisHttpSession
+public class MangerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ProjectApplication.class,args);
+        SpringApplication.run(MangerApplication.class,args);
     }
 }

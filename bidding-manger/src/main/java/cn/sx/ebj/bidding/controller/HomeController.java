@@ -8,13 +8,16 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 public class HomeController extends BaseController {
 
     @GetMapping(value = {"", "/"})
-    public String index(ModelMap map) {
-
+    public String index(ModelMap map, HttpSession session) {
+        session.setAttribute("aa","22");
         log.info("首页->{}", "访问首页");
+
         return "index";
     }
 
