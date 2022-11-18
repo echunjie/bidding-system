@@ -1,15 +1,15 @@
-package cn.sx.ebj.bidding.controller.project;
+package cn.sx.ebj.bidding.controller.notice;
 
 import cn.sx.ebj.bidding.common.core.BaseController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @name: 需求管理模块
+ * @name: 信息管理
  * @author: chunjie
- * @date: 2022-11-16 22:48
+ * @date: 2022-11-18 20:47
  **/
 @Controller
-@RequestMapping("/require")
-public class RequireController extends BaseController {
+@RequestMapping("/info")
+public class InfoManger extends BaseController {
 }
