@@ -25,6 +25,19 @@ public class Page<T> implements Serializable {
     private List<T> records;
 
 
+    public Page() {
+    }
+
+    public Page(int size, int index) {
+        this.size = size;
+        this.index = index;
+    }
+
+    public static <T> Page init() {
+
+        return new Page(10, 1);
+    }
+
     public int getSize() {
         return size;
     }
