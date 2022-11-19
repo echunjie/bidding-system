@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @date: 2022-11-12 18:05
  **/
 @Configuration
-public class ProjectConfig implements WebMvcConfigurer {
+public class MangerConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {

@@ -3,11 +3,13 @@ package cn.sx.ebj.bidding.controller;
 import cn.sx.ebj.bidding.common.core.BaseController;
 import cn.sx.ebj.bidding.common.data.Page;
 import cn.sx.ebj.bidding.common.data.R;
+import cn.sx.ebj.bidding.common.utils.IPUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 @Controller
@@ -17,7 +19,8 @@ public class HomeController extends BaseController {
     public String index(ModelMap map, HttpSession session) {
         session.setAttribute("aa","22");
         log.info("首页->{}", "访问首页");
-
+        this.request.setAttribute("b","11");
+        log.info("当前IP地址->{}", this.getIp());
         return "index";
     }
 
