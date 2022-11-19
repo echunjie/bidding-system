@@ -21,6 +21,7 @@ public class StrUtils {
      * @return boolean
      */
     public static boolean isEmpty(String obj) {
+        log.info("isEmpty 参数->{}",obj);
         return (obj == null || obj.equals(""));
     }
 
@@ -31,6 +32,7 @@ public class StrUtils {
      * @return boolean
      */
     public static boolean isNotEmpty(String obj) {
+        log.info("isNotEmpty 参数->{}",obj);
         return (obj != null && !obj.equals(""));
     }
 
