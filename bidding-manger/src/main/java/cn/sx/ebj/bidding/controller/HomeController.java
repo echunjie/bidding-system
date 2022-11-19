@@ -29,7 +29,7 @@ public class HomeController extends BaseController {
     @ResponseBody
     public R<String> getIndex() {
 
-        Page<Object> d = new Page<>();
+        Page<Object> d =Page.init();
         d.setTotalRecord(65);
         return R.SUCCESS(d.getTotalPage() + "");
     }
