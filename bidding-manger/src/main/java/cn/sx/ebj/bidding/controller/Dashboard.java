@@ -4,17 +4,15 @@ import cn.sx.ebj.bidding.common.core.BaseController;
 import cn.sx.ebj.bidding.common.data.Page;
 import cn.sx.ebj.bidding.common.data.R;
 import cn.sx.ebj.bidding.common.utils.ConvertUtils;
-import cn.sx.ebj.bidding.common.utils.IPUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 @Controller
-public class HomeController extends BaseController {
+public class Dashboard extends BaseController {
 
     @GetMapping(value = {"", "/"})
     public String index(ModelMap map, HttpSession session) {
